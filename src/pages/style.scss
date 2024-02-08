@@ -1,0 +1,36 @@
+.book{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    .books{
+        /* flex: 1; */
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background-color: rgb(236, 208, 208);
+        color: red;
+        margin-left: 10px;
+        
+        img{
+            height: 200px;
+            width: 200px;
+            
+            background-color: green;
+            
+        }
+    }
+
+    
+    
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;    
+    gap: 10px;
+    width: 120px;
+}
